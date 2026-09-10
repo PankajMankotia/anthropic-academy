@@ -157,6 +157,10 @@ Claude sees the pre-filled message, assumes it already started the response, gen
 Systematic approaches to writing, testing, and iterating on prompts for reliable, high-quality outputs.
 
 ### Prompt Evaluation Overview
+
+<img width="1537" height="858" alt="image" src="https://github.com/user-attachments/assets/cb301e02-2e19-455d-97d1-f751cb74f0e3" />
+<img width="1694" height="813" alt="image" src="https://github.com/user-attachments/assets/59f4f204-970c-44ad-abd3-8230a341372d" />
+
 ---
 Prompt engineering = techniques for writing/editing prompts to help Claude understand requests and desired responses.
 
@@ -177,6 +181,8 @@ A 6-step iterative process for prompt improvement:
 4. **Get LLM responses** — feed each prompt variation to Claude, collect outputs
 5. **Grade responses** — use grader system to score each response (e.g., 1–10 scale), average scores for overall prompt performance
 6. **Iterate** — modify prompt based on scores, repeat entire process, compare versions
+<img width="1314" height="640" alt="image" src="https://github.com/user-attachments/assets/7f5961da-5caf-4da2-aa4d-e77dcbb72ba0" />
+<img width="1290" height="676" alt="image" src="https://github.com/user-attachments/assets/f2b21111-696b-407c-89b4-48c9ff926565" />
 
 No standard methodology exists. Many open-source/paid tools available. Can start simple with custom implementation.
 
