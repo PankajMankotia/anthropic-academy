@@ -113,7 +113,8 @@ Implementation:
 - Simplified: `client.messages.stream()` with `.text_stream` property extracts just text
 - Final message: `stream.get_final_message()` assembles all chunks for storage
 
-- <img width="823" height="767" alt="image" src="https://github.com/user-attachments/assets/80a61355-91a4-4294-8759-60c0e729ea3f" />
+  <img width="823" height="767" alt="image" src="https://github.com/user-attachments/assets/80a61355-91a4-4294-8759-60c0e729ea3f" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/50b169a1-5faf-4bac-abab-e96efbf7c283" />
 
 
 
