@@ -136,6 +136,8 @@ Force Claude to halt generation when a specific string appears. Provide a stop s
 Example: prompt `"count 1 to 10"` + stop sequence `"five"` → output stops at `"four, "` (five not included). Refinement: stop sequence `", five"` → clean output `"one, two, three, four"`.
 
 Both pre-filling and stop sequences provide precise control over response direction and length without changing core prompts.
+<img width="837" height="630" alt="image" src="https://github.com/user-attachments/assets/8d02e662-9079-4727-a389-7e3b4a0a6b75" />
+
 
 ### Structured Data Generation
 ---
