@@ -113,6 +113,9 @@ Implementation:
 - Simplified: `client.messages.stream()` with `.text_stream` property extracts just text
 - Final message: `stream.get_final_message()` assembles all chunks for storage
 
+- <img width="823" height="767" alt="image" src="https://github.com/user-attachments/assets/80a61355-91a4-4294-8759-60c0e729ea3f" />
+
+
 
 ## Controlling Output
 Techniques beyond prompt modification for steering Claude's responses: pre-filling, stop sequences, and structured data extraction.
