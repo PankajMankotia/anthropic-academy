@@ -208,6 +208,9 @@ Basic prompt structure: `"Please solve the following task: [test_case_task]"` (v
 ### Model-Based Grading
 ---
 Evaluation system that takes model outputs and assigns objective scores (typically 1–10 scale, 10 = highest quality).
+<img width="1406" height="719" alt="image" src="https://github.com/user-attachments/assets/529ae05d-969c-41fe-8907-39cbfa0ef844" />
+<img width="1434" height="678" alt="image" src="https://github.com/user-attachments/assets/4a6f642c-b26e-4f6d-813c-b8d6221a315a" />
+<img width="1394" height="686" alt="image" src="https://github.com/user-attachments/assets/341ce70e-e05b-4a24-9dbf-a1a3c05f1284" />
 
 Three grader types:
 - **Code graders** — programmatic checks (length, word presence, syntax validation, readability scores)
