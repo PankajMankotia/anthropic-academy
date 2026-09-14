@@ -266,6 +266,7 @@ One-shot/multi-shot prompting: providing examples in prompts to guide model beha
 Structure examples with XML tags containing sample input and ideal output. Key applications: corner case handling (sarcasm detection), complex output formatting (JSON structures), clarifying expected response quality/style.
 
 Best practices: add context for corner cases, include reasoning explaining why output is ideal, use highest-scoring examples from evaluations as templates, place examples after main instructions.
+<img width="672" height="666" alt="image" src="https://github.com/user-attachments/assets/f657e2c5-0f2d-43d5-a9c2-6f679689012c" />
 
 
 ## Tool Use
