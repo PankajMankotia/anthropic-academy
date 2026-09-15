@@ -276,6 +276,9 @@ Enabling Claude to access external information and perform actions through funct
 ---
 Tool use enables Claude to access external information beyond training data. Default limitation: Claude only knows information from training data, lacks current/real-time information.
 
+<img width="1533" height="817" alt="image" src="https://github.com/user-attachments/assets/5625ffdf-4437-459c-97c4-939cf89e553b" />
+
+
 Tool use flow:
 1. Send initial request to Claude + instructions for external data access
 2. Claude evaluates if external data needed, requests specific information
