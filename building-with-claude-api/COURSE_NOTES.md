@@ -279,6 +279,7 @@ Tool use enables Claude to access external information beyond training data. Def
 <img width="1533" height="817" alt="image" src="https://github.com/user-attachments/assets/5625ffdf-4437-459c-97c4-939cf89e553b" />
 <img width="1522" height="860" alt="image" src="https://github.com/user-attachments/assets/57dee27b-5eae-4d5c-a0a5-1f7fd546e952" />
 <img width="1485" height="783" alt="image" src="https://github.com/user-attachments/assets/ebcdb1e7-a17b-47ef-9f16-106bc2117b49" />
+<img width="1485" height="770" alt="image" src="https://github.com/user-attachments/assets/8f4a980e-6787-4219-ad0c-04b18a002573" />
 
 
 Tool use flow:
@@ -334,6 +335,9 @@ When tools are enabled, messages contain multiple blocks instead of just text bl
 Tool response format: assistant message with text block (user-facing explanation) + tool use block (function name + arguments for tool execution).
 
 Critical requirement: manually maintain conversation history. Multi-block handling: append entire `response.content` (all blocks) to messages list, not just text. Helper functions must support multiple blocks.
+
+<img width="1265" height="788" alt="image" src="https://github.com/user-attachments/assets/8d8ce808-272d-4e61-8ff8-018e48903154" />
+
 
 ### Sending Tool Results
 ---
