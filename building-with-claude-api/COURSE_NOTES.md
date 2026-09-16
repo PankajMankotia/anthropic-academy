@@ -355,6 +355,7 @@ Follow-up request requirements: include complete message history (original user 
 ---
 <img width="995" height="467" alt="image" src="https://github.com/user-attachments/assets/7ab0496f-87f0-442d-b859-61b4f5bf0c8c" />
 <img width="1320" height="675" alt="image" src="https://github.com/user-attachments/assets/78bbea78-1e10-406a-89ed-d2f1bfec3090" />
+<img width="1495" height="789" alt="image" src="https://github.com/user-attachments/assets/715ff51e-e0c0-4fb0-9221-bc8c5888dda1" />
 
 
 Conversations where Claude uses multiple tools sequentially to answer a single query.
