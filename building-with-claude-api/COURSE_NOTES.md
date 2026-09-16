@@ -353,6 +353,8 @@ Follow-up request requirements: include complete message history (original user 
 
 ### Multi-Turn Conversations with Tools
 ---
+<img width="995" height="467" alt="image" src="https://github.com/user-attachments/assets/7ab0496f-87f0-442d-b859-61b4f5bf0c8c" />
+
 Conversations where Claude uses multiple tools sequentially to answer a single query.
 
 Tool chaining process: user asks question → Claude requests first tool → tool executed → result returned → Claude requests second tool → tool executed → result returned → Claude provides final answer.
