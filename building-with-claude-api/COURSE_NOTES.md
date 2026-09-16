@@ -280,6 +280,7 @@ Tool use enables Claude to access external information beyond training data. Def
 <img width="1522" height="860" alt="image" src="https://github.com/user-attachments/assets/57dee27b-5eae-4d5c-a0a5-1f7fd546e952" />
 <img width="1485" height="783" alt="image" src="https://github.com/user-attachments/assets/ebcdb1e7-a17b-47ef-9f16-106bc2117b49" />
 <img width="1485" height="770" alt="image" src="https://github.com/user-attachments/assets/8f4a980e-6787-4219-ad0c-04b18a002573" />
+<img width="1512" height="757" alt="image" src="https://github.com/user-attachments/assets/57be07a0-a2c1-416a-83ea-fa60bf0b580b" />
 
 
 Tool use flow:
