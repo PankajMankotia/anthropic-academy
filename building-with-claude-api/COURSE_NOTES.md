@@ -401,6 +401,8 @@ Access structured data from `response.content[0].input`. Prompt-based methods ar
 
 ### Fine-Grained Tool Calling
 ---
+<img width="1441" height="788" alt="image" src="https://github.com/user-attachments/assets/2e47db6b-fc9d-4075-aa51-d7058d9ebd13" />
+
 Tool streaming: standard streaming returns `content_block_delta` events; tool streaming adds `input_json_delta` events with `partial_json` (chunk) and `snapshot` (cumulative sum).
 
 Default behavior: Claude generates JSON chunks → API buffers until complete top-level key-value pair → validates JSON against schema → sends chunks. Results in delays followed by burst of chunks.
