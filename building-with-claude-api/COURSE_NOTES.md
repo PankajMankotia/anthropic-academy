@@ -402,6 +402,8 @@ Access structured data from `response.content[0].input`. Prompt-based methods ar
 ### Fine-Grained Tool Calling
 ---
 <img width="1441" height="788" alt="image" src="https://github.com/user-attachments/assets/2e47db6b-fc9d-4075-aa51-d7058d9ebd13" />
+<img width="988" height="465" alt="image" src="https://github.com/user-attachments/assets/4a2d0add-5084-4ec6-a3eb-53901b5abec6" />
+
 
 Tool streaming: standard streaming returns `content_block_delta` events; tool streaming adds `input_json_delta` events with `partial_json` (chunk) and `snapshot` (cumulative sum).
 
@@ -413,6 +415,8 @@ Trade-offs: default = slower but validated JSON; fine-grained = faster streaming
 
 ### The Text Edit Tool
 ---
+<img width="1510" height="758" alt="image" src="https://github.com/user-attachments/assets/77d9af1b-50d4-4441-af4f-d0c9e5e76677" />
+
 Built-in Claude tool for file/text operations (read, write, create, replace, undo). Only the JSON schema is built into Claude; implementation must be custom-coded.
 
 Schema stub sent to Claude gets auto-expanded to full schema. Schema type string varies by Claude model version (3.5 vs 3.7 have different dates).
