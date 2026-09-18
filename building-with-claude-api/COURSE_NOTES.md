@@ -455,6 +455,8 @@ RAG = technique for querying large documents using language models. Problem: how
 ### Text Chunking Strategies
 ---
 Chunking quality directly impacts RAG performance. Poor chunking leads to irrelevant context retrieval.
+<img width="1468" height="757" alt="image" src="https://github.com/user-attachments/assets/8dee5cd5-2bd0-4a3c-97b8-73755b57373d" />
+
 
 **1. Size-Based Chunking** — dividing text into equal-length strings.
 \+ Easy to implement, most common in production
