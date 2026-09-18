@@ -490,6 +490,7 @@ A 7-step process combining text chunking, embeddings, and vector search:
 5. **Query Processing** — convert user question into embedding using same model
 6. **Similarity Search** — find most similar stored embeddings using cosine similarity
 7. **Prompt Assembly** — combine user question with retrieved relevant text chunks, send to LLM
+<img width="1498" height="796" alt="image" src="https://github.com/user-attachments/assets/70431b5d-1a9e-474e-90e0-b88c80a5bd69" />
 
 Key math: **cosine similarity** = cosine of angle between vectors, returns values -1 to 1, closer to 1 means more similar. **Cosine distance** = 1 minus cosine similarity, values closer to 0 mean higher similarity.
 
