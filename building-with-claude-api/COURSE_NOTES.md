@@ -510,11 +510,17 @@ Key: store original text with embeddings for meaningful retrieval results.
 
 ### BM25 Lexical Search
 ---
+<img width="800" height="719" alt="image" src="https://github.com/user-attachments/assets/45fccc85-468d-4df0-baa4-7e376e4fdbaf" />
+
+
 BM25 (Best Match 25) = lexical search algorithm commonly used in RAG pipelines to complement semantic search.
 
 Problem with semantic search alone: can miss exact term matches, returning irrelevant results even when specific terms appear frequently in certain documents.
 
 Hybrid search approach: combine semantic search (embeddings/vector database) with lexical search (BM25) in parallel, then merge results.
+
+<img width="1424" height="687" alt="image" src="https://github.com/user-attachments/assets/d8dc93a7-8573-48ea-b504-a111329ffda1" />
+<img width="1515" height="756" alt="image" src="https://github.com/user-attachments/assets/47d93f88-195d-4620-aea0-47304885ef88" />
 
 BM25 algorithm steps:
 1. Tokenize user query into separate terms
