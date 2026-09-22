@@ -586,7 +586,7 @@ Extended thinking, vision, PDF support, citations, prompt caching, and code exec
 
 
 Extended thinking allows Claude reasoning time before generating the final response. Displays a separate thinking process visible to users. Increases accuracy for complex tasks but adds cost (charged for thinking tokens) and latency.
-
+- thinking = True
 - `thinking_budget` — minimum 1024 tokens allocated for thinking phase
 - `max_tokens` must exceed thinking budget (e.g., budget 1024 requires `max_tokens ≥ 1025`)
 
