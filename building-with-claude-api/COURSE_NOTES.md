@@ -532,6 +532,12 @@ Both semantic and lexical search systems use similar APIs (`add_document`, `sear
 
 ### Multi-Index RAG Pipeline
 ---
+<img width="1751" height="816" alt="image" src="https://github.com/user-attachments/assets/3ee7f467-9258-4399-a418-e1429a51e69d" />
+<img width="1512" height="791" alt="image" src="https://github.com/user-attachments/assets/beabacb2-e42c-481e-b373-210993ba2e04" />
+<img width="1697" height="847" alt="image" src="https://github.com/user-attachments/assets/f9817db3-f67b-400d-b231-492b1086fbfd" />
+<img width="1705" height="740" alt="image" src="https://github.com/user-attachments/assets/2676c204-803f-44b5-80f2-a6b1378457d2" />
+
+
 System combining semantic search (vector index) and lexical search (BM25 index) for improved retrieval accuracy. A `Retriever` class wraps both indexes and merges results.
 
 **Reciprocal Rank Fusion (RRF)** = technique for merging results from different indexes. Formula: `RRF_score = sum of (1/(rank + 1))` across all search methods for each document. Documents ranked by highest combined score.
