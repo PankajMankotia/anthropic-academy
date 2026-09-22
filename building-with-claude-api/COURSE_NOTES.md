@@ -536,6 +536,7 @@ Both semantic and lexical search systems use similar APIs (`add_document`, `sear
 <img width="1512" height="791" alt="image" src="https://github.com/user-attachments/assets/beabacb2-e42c-481e-b373-210993ba2e04" />
 <img width="1697" height="847" alt="image" src="https://github.com/user-attachments/assets/f9817db3-f67b-400d-b231-492b1086fbfd" />
 <img width="1705" height="740" alt="image" src="https://github.com/user-attachments/assets/2676c204-803f-44b5-80f2-a6b1378457d2" />
+<img width="1710" height="830" alt="image" src="https://github.com/user-attachments/assets/209f287e-96ad-4b02-93d0-3603b2e96d74" />
 
 
 System combining semantic search (vector index) and lexical search (BM25 index) for improved retrieval accuracy. A `Retriever` class wraps both indexes and merges results.
