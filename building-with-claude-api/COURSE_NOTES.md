@@ -590,6 +590,7 @@ Extended thinking allows Claude reasoning time before generating the final respo
 - `thinking_budget` — minimum 1024 tokens allocated for thinking phase
 - `max_tokens` must exceed thinking budget (e.g., budget 1024 requires `max_tokens ≥ 1025`)
 
+When extended thinking is enabled, Claude requires temperature=1 — it can't be set to any other value.
 Response structure: **thinking block** (reasoning text + cryptographic signature) + **text block** (final response). Signature prevents tampering with thinking text (safety measure). Redacted thinking blocks contain encrypted text flagged by safety systems, provided for conversation continuity.
 
 When to use: enable after prompt optimization fails to achieve desired accuracy. Use prompt evals to determine necessity.
