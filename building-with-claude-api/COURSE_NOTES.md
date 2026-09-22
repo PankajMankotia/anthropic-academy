@@ -578,6 +578,13 @@ Extended thinking, vision, PDF support, citations, prompt caching, and code exec
 
 ### Extended Thinking
 ---
+<img width="1534" height="716" alt="image" src="https://github.com/user-attachments/assets/b69f3440-d28f-4b9b-b4b2-fbda23182d0c" />
+<img width="1247" height="662" alt="image" src="https://github.com/user-attachments/assets/96154507-654c-4985-9fc2-dc7539b2ea02" />
+<img width="1249" height="676" alt="image" src="https://github.com/user-attachments/assets/6883cb00-b9b5-42a6-bd5d-c2d4059a66fc" />
+<img width="1519" height="707" alt="image" src="https://github.com/user-attachments/assets/d80e426a-1950-4613-a19d-a2caae5a4741" />
+
+
+
 Extended thinking allows Claude reasoning time before generating the final response. Displays a separate thinking process visible to users. Increases accuracy for complex tasks but adds cost (charged for thinking tokens) and latency.
 
 - `thinking_budget` — minimum 1024 tokens allocated for thinking phase
