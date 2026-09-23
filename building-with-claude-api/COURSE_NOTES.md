@@ -597,6 +597,14 @@ When to use: enable after prompt optimization fails to achieve desired accuracy.
 
 ### Image Support
 ---
+<img width="1454" height="776" alt="image" src="https://github.com/user-attachments/assets/503e186d-0cc0-4fb0-a5b6-386761d4a02d" />
+<img width="1180" height="666" alt="image" src="https://github.com/user-attachments/assets/4fb057be-18f5-49e8-bb7e-2567c76da15b" />
+BAD PROMT:
+<img width="1560" height="773" alt="image" src="https://github.com/user-attachments/assets/5278751a-f1f9-4da6-a24c-2692357f8c37" />
+GOOD PROMPT:
+One shot:<img width="1281" height="787" alt="image" src="https://github.com/user-attachments/assets/92bbfe9c-346c-432c-80b1-cd63e14fc9e1" />
+Multi-shot: <img width="1239" height="766" alt="image" src="https://github.com/user-attachments/assets/5909b939-ef57-4b49-9bce-2041e3c9f54b" />
+
 Claude can process images within user messages for analysis, comparison, counting, and description tasks.
 
 Limitations: max 100 images per request; size/dimension restrictions apply; images consume tokens (charged based on pixel height/width).
