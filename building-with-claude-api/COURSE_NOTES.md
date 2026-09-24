@@ -677,12 +677,17 @@ Token usage patterns: `cache_creation_input_tokens` (written to cache on first u
 
 ### Code Execution and the Files API
 ---
-**Files API**: upload files ahead of time and reference them later via file ID instead of including raw data in each request. Upload file → get metadata object with ID → use ID in future requests.
+<img width="1333" height="730" alt="image" src="https://github.com/user-attachments/assets/dab758f4-fa29-49bd-a3b5-f7a8162b0317" />
+
+**Files API**: upload files ahead of time and reference them later via file ID instead of including raw data in each request. Upload file → get metadata object with ID → use ID in future requests. This is different then uploading an image or PDF (as seen earlier).
+
+<img width="1325" height="727" alt="image" src="https://github.com/user-attachments/assets/34a9f5c9-25ce-43f6-bfb7-c8707efdd09d" />
 
 **Code Execution**: server-based tool where Claude executes Python code in isolated Docker containers. No implementation needed, just include predefined tool schema. Claude can run code multiple times, interpret results, generate final response.
 
 Key constraints: Docker containers have no network access; data input/output relies on Files API integration.
 
+<img width="1313" height="724" alt="image" src="https://github.com/user-attachments/assets/c1c96cc6-29b6-4c36-841c-0339b978ee83" />
 Combined workflow: upload file via Files API → get file ID → include ID in container upload block → ask Claude to analyze → Claude writes/executes code with access to uploaded file → returns analysis and results. Claude can generate files (plots, reports) inside the container that can be downloaded using file IDs.
 
 
@@ -691,6 +696,10 @@ A communication layer providing Claude with context and tools through standardiz
 
 ### Introduction to MCP
 ---
+<img width="1402" height="740" alt="image" src="https://github.com/user-attachments/assets/cb30bc1c-660c-48e7-979a-ae830bc9b223" />
+<img width="1381" height="754" alt="image" src="https://github.com/user-attachments/assets/095b8a3a-8f8a-49c2-a56a-052f12968582" />
+<img width="1473" height="701" alt="image" src="https://github.com/user-attachments/assets/47e76754-4d98-422d-8e72-7acada630c01" />
+
 MCP = communication layer providing Claude with context and tools without requiring developers to write tedious code.
 
 Architecture: MCP client connects to MCP server. Server contains tools, resources, and prompts as internal components.
