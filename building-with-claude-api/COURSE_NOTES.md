@@ -628,6 +628,7 @@ Citation types:
 - `citation_char_location` — for plain text: character position in text block
 
 Implementation: add `"citations": {"enabled": true}` to request + add `"title"` field to identify source document. Works with both PDF files and plain text sources.
+<img width="1450" height="691" alt="image" src="https://github.com/user-attachments/assets/560331fe-4fc7-4719-b02d-1611d5eb5e9b" />
 
 Response structure: content becomes list of text blocks, some containing `citations` arrays with location data. Enables citation popups/overlays showing source document, page numbers, and exact cited text.
 
