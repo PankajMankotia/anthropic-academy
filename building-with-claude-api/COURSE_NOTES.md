@@ -651,6 +651,11 @@ Normal flow: user sends message → Claude processes input → generates output 
 
 Solution: prompt caching stores results of input processing in temporary cache. Identical input in subsequent requests → Claude retrieves cached work instead of reprocessing.
 
+<img width="1513" height="715" alt="image" src="https://github.com/user-attachments/assets/687e3ec7-c5b3-41ef-929b-4c80f36f0eff" />
+<img width="1361" height="755" alt="image" src="https://github.com/user-attachments/assets/3bc2c6bf-7389-4925-813b-8feacb152594" />
+<img width="1532" height="769" alt="image" src="https://github.com/user-attachments/assets/0f882d92-d0e6-4477-b9f2-1a0590467b8f" />
+<img width="1556" height="827" alt="image" src="https://github.com/user-attachments/assets/5f658632-d0cf-4d1f-aad1-74a1022b2c56" />
+
 #### Rules of Prompt Caching
 - Cache duration = 1 hour maximum
 - Requires manual cache breakpoint addition to message blocks
