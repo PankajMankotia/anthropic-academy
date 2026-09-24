@@ -721,10 +721,17 @@ Key message types:
 - `list tools request` / `list tools result` — client asks server for available tools
 - `call tool request` / `call tool result` — client asks server to run tool with arguments
 
+<img width="1537" height="773" alt="image" src="https://github.com/user-attachments/assets/04689a94-01b6-46b7-ab00-37fb9e47901d" />
+
+
 Typical flow: user queries server → server requests tool list via MCP client → MCP server responds → server sends query + tools to Claude → Claude requests tool execution → MCP client sends call tool request → MCP server executes (e.g., GitHub API call) → results flow back through chain.
 
 ### MCP Project Setup
 ---
+
+<img width="876" height="404" alt="image" src="https://github.com/user-attachments/assets/bddef292-e034-4a1b-a84d-5fda7ff97243" />
+<img width="751" height="484" alt="image" src="https://github.com/user-attachments/assets/ae81c23f-4266-45f5-9822-8367513f158b" />
+
 CLI-based chatbot project teaching MCP client-server interaction through hands-on implementation.
 
 Project components: MCP client (connects to custom MCP server), MCP server (provides 2 tools: read document, update document), document collection (fake documents stored in memory only).
