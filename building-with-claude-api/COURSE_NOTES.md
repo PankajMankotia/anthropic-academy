@@ -635,6 +635,17 @@ Response structure: content becomes list of text blocks, some containing `citati
 ### Prompt Caching
 ---
 Speeds up Claude's responses and reduces costs by reusing computational work from previous requests.
+<img width="1156" height="721" alt="image" src="https://github.com/user-attachments/assets/acf30ada-1f09-4924-9e57-bbb9abf3afaa" />
+<img width="1521" height="741" alt="image" src="https://github.com/user-attachments/assets/fbd2e6ec-2cd8-43f2-b211-8b905dfbdff5" />
+<img width="1387" height="767" alt="image" src="https://github.com/user-attachments/assets/881ad338-bb80-4e8f-88e5-7369e5b2dd6c" />
+
+Follow-up message: 
+<img width="1381" height="717" alt="image" src="https://github.com/user-attachments/assets/00334d95-9adf-4551-99d9-caac30dc12ad" />
+<img width="1399" height="744" alt="image" src="https://github.com/user-attachments/assets/35b5b448-514d-42e7-974b-1f852c725a2f" />
+
+To fix: Prompt cache
+<img width="1514" height="794" alt="image" src="https://github.com/user-attachments/assets/1fd9d41c-7add-442d-ade6-3a42a9d61476" />
+<img width="1562" height="769" alt="image" src="https://github.com/user-attachments/assets/5bfbe689-19a6-4f6d-af03-cae6adf068a9" />
 
 Normal flow: user sends message → Claude processes input → generates output → **discards all processing work** → ready for next request. Problem: follow-up requests with identical content repeat all computational work.
 
