@@ -710,6 +710,11 @@ Key benefits: developers avoid writing tool schemas and function implementations
 
 ### MCP Clients
 ---
+<img width="1377" height="736" alt="image" src="https://github.com/user-attachments/assets/9f7aca59-8337-4f91-a803-34b83a6baac5" />
+<img width="1355" height="724" alt="image" src="https://github.com/user-attachments/assets/bbe49bd4-3540-4b96-bbd5-05ac6f254002" />
+<img width="1382" height="735" alt="image" src="https://github.com/user-attachments/assets/252f0046-00b7-499a-8781-4f1230079561" />
+<img width="1426" height="734" alt="image" src="https://github.com/user-attachments/assets/bd3c5d44-121d-41d3-9def-3e64a2fe362a" />
+
 MCP client = communication interface between your server and MCP server, providing access to server's tools. Transport agnostic: client/server can communicate via multiple protocols (stdio, HTTP, WebSockets). Common setup: client and server on same machine using standard I/O.
 
 Key message types:
