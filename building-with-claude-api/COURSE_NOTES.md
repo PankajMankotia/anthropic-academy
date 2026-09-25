@@ -763,6 +763,7 @@ Interface: left sidebar has connect button → top menu shows resources/prompts/
 ### Implementing a Client
 ---
 MCP Client = wrapper class around client session for resource cleanup and connection management. Client session = actual connection from MCP Python SDK, requires resource cleanup on close.
+<img width="1320" height="569" alt="image" src="https://github.com/user-attachments/assets/49b7661d-73b7-4ae6-acb8-482da8553952" />
 
 Key functions:
 - `list_tools()` — `await self.session.list_tools()`, return `result.tools`
