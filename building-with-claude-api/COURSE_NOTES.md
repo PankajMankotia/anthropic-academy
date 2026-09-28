@@ -794,6 +794,10 @@ Content parsing: if `mime_type == "application/json"` → return `json.loads(res
 
 ### Defining Prompts
 ---
+<img width="1460" height="732" alt="image" src="https://github.com/user-attachments/assets/248d0b0a-c049-465e-bea9-a6fbf0961159" />
+
+<img width="1509" height="798" alt="image" src="https://github.com/user-attachments/assets/a00c5347-d94e-413f-8b85-5a39bfe13d50" />
+
 MCP prompts = pre-defined, tested prompt templates that MCP servers expose to client applications for specialized tasks.
 
 Purpose: instead of users writing ad-hoc prompts, server authors create high-quality, evaluated prompts tailored to their server's domain.
