@@ -774,8 +774,13 @@ Usage flow: client gets tool definitions to send to Claude, then executes tools 
 ### Defining Resources
 ---
 MCP resources allow servers to expose data to clients for read operations.
+<img width="1358" height="669" alt="image" src="https://github.com/user-attachments/assets/cac20318-51f8-4750-9f86-6363227efa38" />
 
 Resource types: **direct** (static URI like `"docs://documents"`) and **templated** (parameterized URI like `"docs://documents/{doc_id}"`).
+<img width="1511" height="596" alt="image" src="https://github.com/user-attachments/assets/098f55f0-0c08-44e8-a25e-57694d0de046" />
+<img width="1508" height="751" alt="image" src="https://github.com/user-attachments/assets/452bbdac-276e-4d4c-b9c6-46962af402d4" />
+<img width="1464" height="727" alt="image" src="https://github.com/user-attachments/assets/653a9651-416b-429d-8a4c-5223a1f665b1" />
+<img width="1427" height="670" alt="image" src="https://github.com/user-attachments/assets/af67d0bc-b088-494e-a177-d0aded51524a" />
 
 Implementation: use `@mcp.resource` decorator with URI and MIME type parameters. MIME types hint to client about returned data format (`application/json` for structured data, `text/plain` for plain text). Templated resource URI parameters are automatically parsed by SDK and passed as keyword arguments.
 
