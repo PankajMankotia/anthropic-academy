@@ -825,8 +825,9 @@ If you want:
 <img width="1072" height="689" alt="image" src="https://github.com/user-attachments/assets/a6fa1115-6897-49f7-be51-a78ba888bdd4" />
 
 <img width="1269" height="705" alt="image" src="https://github.com/user-attachments/assets/92587a5e-09b5-41a0-8032-963a05afbef3" />
-  
 
+# Anthropic Apps
+<img width="1482" height="696" alt="image" src="https://github.com/user-attachments/assets/43f933ac-ec1f-4e65-8ad7-88e293f49061" />
 
 ## Claude Code
 Anthropic's terminal-based coding assistant: setup, usage patterns, MCP integration, parallelization, and automated debugging.
