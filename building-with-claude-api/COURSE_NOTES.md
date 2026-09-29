@@ -813,6 +813,20 @@ Client integration: prompts appear as autocomplete options (slash commands) in c
 
 Workflow: define prompt in MCP server with expected arguments → client calls `get_prompt` with prompt name + arguments dictionary → arguments passed as keyword arguments to prompt function → function interpolates arguments into prompt text → returns messages array for direct feeding to LLM.
 
+### MCP Overview
+<img width="1480" height="721" alt="image" src="https://github.com/user-attachments/assets/f6d77c1e-7ce2-4f71-a7cf-06d986eb8f8a" />
+If you want:
+1. Add Capabilities in Claude => Add more Tools in MCP server
+2. Get data into the app => Add resource
+3. Predefined workflow => Add Prompts
+
+<img width="1210" height="544" alt="image" src="https://github.com/user-attachments/assets/d81b20b4-57b3-4aa1-a83d-ec98c0fdffb4" />
+
+<img width="1072" height="689" alt="image" src="https://github.com/user-attachments/assets/a6fa1115-6897-49f7-be51-a78ba888bdd4" />
+
+<img width="1269" height="705" alt="image" src="https://github.com/user-attachments/assets/92587a5e-09b5-41a0-8032-963a05afbef3" />
+  
+
 
 ## Claude Code
 Anthropic's terminal-based coding assistant: setup, usage patterns, MCP integration, parallelization, and automated debugging.
