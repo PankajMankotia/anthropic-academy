@@ -830,7 +830,9 @@ If you want:
 <img width="1482" height="696" alt="image" src="https://github.com/user-attachments/assets/43f933ac-ec1f-4e65-8ad7-88e293f49061" />
 
 ## Claude Code
-Anthropic's terminal-based coding assistant: setup, usage patterns, MCP integration, parallelization, and automated debugging.
+<img width="1548" height="649" alt="image" src="https://github.com/user-attachments/assets/2694c4f8-aba5-464c-9ab8-55a87a397599" />
+
+Anthropic's terminal-based coding assistant: setup, usage patterns, MCP integration(can act as a MCP client), parallelization, and automated debugging.
 
 ### Overview
 ---
@@ -838,12 +840,19 @@ Anthropic deploys two key applications: **Claude Code** (terminal-based coding a
 
 ### Setup
 ---
+<img width="1485" height="734" alt="image" src="https://github.com/user-attachments/assets/76b4bfba-cc7e-46e7-b9f5-5bd4c8977b04" />
+
 Claude Code = terminal-based coding assistant that helps with code-related tasks. Core capabilities: search/read/edit files + advanced tools (web fetching, terminal access) + MCP client support for expanded functionality.
+
+<img width="1369" height="716" alt="image" src="https://github.com/user-attachments/assets/4b1d484f-9bf3-4166-920e-a59e8fab984c" />
 
 Setup: install Node.js → `npm install` → execute `claude` command → login to Anthropic account. Full guide at `docs.anthropic.com`.
 
 ### Claude Code in Action
 ---
+<img width="1538" height="731" alt="image" src="https://github.com/user-attachments/assets/9edbb0f4-ef5d-4a68-8d18-e84ac2693083" />
+<img width="1533" height="767" alt="image" src="https://github.com/user-attachments/assets/5aa9e7b1-a692-4102-ab09-bcfb5cf70ebe" />
+
 Claude Code functions as a collaborative engineer, not just a code generator. Key capabilities: project setup, feature design, code writing, testing, deployment, error fixing.
 
 Setup workflow: download project → open in editor → run `claude` → ask Claude to read README and execute setup → run `init` command (Claude scans codebase for architecture/style, creates `claude.md`). `claude.md` is automatically included as context for future requests.
