@@ -852,6 +852,8 @@ Setup: install Node.js → `npm install` → execute `claude` command → login 
 ---
 <img width="1538" height="731" alt="image" src="https://github.com/user-attachments/assets/9edbb0f4-ef5d-4a68-8d18-e84ac2693083" />
 <img width="1533" height="767" alt="image" src="https://github.com/user-attachments/assets/5aa9e7b1-a692-4102-ab09-bcfb5cf70ebe" />
+<img width="1521" height="749" alt="image" src="https://github.com/user-attachments/assets/57937d85-ec43-40f1-bc5f-2cf36d6d6a72" />
+
 
 Claude Code functions as a collaborative engineer, not just a code generator. Key capabilities: project setup, feature design, code writing, testing, deployment, error fixing.
 
@@ -870,6 +872,8 @@ Memory types: project (shared), local, user memory files. Use `#` to add specifi
 2. Ask Claude to suggest tests for the feature
 3. Select and implement chosen tests
 4. Ask Claude to write code until tests pass
+
+<img width="1464" height="744" alt="image" src="https://github.com/user-attachments/assets/32490da5-1a64-4981-80ef-b1c89790c036" />
 
 Core principle: Claude Code = effort multiplier. More detailed instructions = significantly better results.
 
