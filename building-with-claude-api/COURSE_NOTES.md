@@ -862,18 +862,20 @@ Setup workflow: download project → open in editor → run `claude` → ask Cla
 Memory types: project (shared), local, user memory files. Use `#` to add specific notes to memory.
 
 #### Effective Prompting Strategies
+<img width="1464" height="744" alt="image" src="https://github.com/user-attachments/assets/32490da5-1a64-4981-80ef-b1c89790c036" />
 **Method 1 — Three-step workflow**:
 1. Identify relevant files, ask Claude to analyze them
 2. Describe feature, ask Claude to plan solution (no code yet)
 3. Ask Claude to implement the plan
 
+<img width="1536" height="634" alt="image" src="https://github.com/user-attachments/assets/2f980af7-0f81-4ede-8197-131ee94e7d9c" />
 **Method 2 — Test-driven development**:
 1. Provide relevant context
 2. Ask Claude to suggest tests for the feature
 3. Select and implement chosen tests
 4. Ask Claude to write code until tests pass
 
-<img width="1464" height="744" alt="image" src="https://github.com/user-attachments/assets/32490da5-1a64-4981-80ef-b1c89790c036" />
+
 
 Core principle: Claude Code = effort multiplier. More detailed instructions = significantly better results.
 
