@@ -881,6 +881,9 @@ Core principle: Claude Code = effort multiplier. More detailed instructions = si
 
 ### Enhancements with MCP Servers
 ---
+<img width="1420" height="725" alt="image" src="https://github.com/user-attachments/assets/05467864-e104-4a56-8c33-64fca84b9c14" />
+<img width="1482" height="722" alt="image" src="https://github.com/user-attachments/assets/012bf358-fca0-4d7d-913a-939031f738eb" />
+
 Claude Code has an embedded MCP client that can connect to MCP servers. Integration via: `claude mcp add [server-name] [startup-command]`.
 
 Example: document processing server exposing "Document Path to Markdown" tool, allowing Claude Code to read PDF/Word documents. Common use cases: production monitoring (Sentry), project management (Jira), communication (Slack), custom workflow tools.
