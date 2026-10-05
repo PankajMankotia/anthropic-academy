@@ -935,6 +935,9 @@ Strategies for handling complex tasks: pre-defined workflow patterns vs flexible
 
 ### Workflows vs Agents
 ---
+<img width="1275" height="723" alt="image" src="https://github.com/user-attachments/assets/8527b23b-542a-45b4-b945-7409a9f28f99" />
+
+
 **Workflows** = pre-defined series of calls to Claude with known exact steps. **Agents** = flexible approach using basic tools that Claude combines to complete unknown tasks.
 
 Decision rule: use workflows when you have precise task understanding and know exact step sequence. Use agents when task details are unclear.
@@ -950,6 +953,8 @@ Recommendation: prioritize workflows for reliability. Use agents only when flexi
 
 ### Evaluator-Optimizer Pattern
 ---
+<img width="1479" height="760" alt="image" src="https://github.com/user-attachments/assets/16095111-c6d7-442c-9f2c-0d6eab920e8b" />
+
 Example workflow: image to 3D model converter.
 1. Claude describes uploaded image in detail
 2. Claude uses CADQuery to model object from description
@@ -961,6 +966,13 @@ Producer generates output, evaluator assesses quality, loop continues until eval
 
 ### Parallelization Workflows
 ---
+<img width="1497" height="714" alt="image" src="https://github.com/user-attachments/assets/200d5ef3-9571-49b2-b997-940b9f8b303e" />
+
+
+Bad Design : <img width="1446" height="744" alt="image" src="https://github.com/user-attachments/assets/76505440-43ae-40e4-b74d-15ca9060de2c" />
+Good Design: <img width="1351" height="770" alt="image" src="https://github.com/user-attachments/assets/48a056c7-6ea2-4a80-9551-1c03c8a7a812" />
+             <img width="1300" height="754" alt="image" src="https://github.com/user-attachments/assets/ce3c5e2b-01a9-4121-910f-d07abbc51aea" />
+
 Breaking one complex task into multiple simultaneous subtasks, then aggregating results.
 
 Example: material selection — instead of one large prompt evaluating all materials, use separate parallel requests each evaluating one material's suitability, then a final aggregation step.
@@ -972,6 +984,13 @@ Example: material selection — instead of one large prompt evaluating all mater
 
 ### Chaining Workflows
 ---
+
+<img width="1474" height="782" alt="image" src="https://github.com/user-attachments/assets/acdf2c34-6388-42c2-a1ef-054287e9398d" />
+<img width="1475" height="718" alt="image" src="https://github.com/user-attachments/assets/723258db-f30d-4b26-a6c9-6ccc664d2f62" />
+
+Bad Design : <img width="1435" height="759" alt="image" src="https://github.com/user-attachments/assets/f9da3aa7-46b1-45a9-b562-d0da4cf0c358" />
+
+
 Breaking large tasks into a series of distinct sequential steps rather than a single complex prompt.
 
 Primary use case: when Claude consistently ignores constraints in complex prompts despite repetition. Common with long prompts containing many "don't do X" requirements.
