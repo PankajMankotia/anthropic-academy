@@ -942,6 +942,8 @@ Strategies for handling complex tasks: pre-defined workflow patterns vs flexible
 
 Decision rule: use workflows when you have precise task understanding and know exact step sequence. Use agents when task details are unclear.
 
+<img width="1541" height="799" alt="image" src="https://github.com/user-attachments/assets/30d43b9a-0c40-435b-b533-32ad514878ae" />
+
 | | Workflows | Agents |
 |---|---|---|
 | Task division | Break big tasks into specific subtasks | Handle varied challenges creatively |
@@ -1019,9 +1021,14 @@ Agent behavior: can request additional information when needed, combines tools c
 
 ### Environment Inspection
 ---
+<img width="1447" height="766" alt="image" src="https://github.com/user-attachments/assets/0d7ec96d-da8e-4a5a-8d40-3fa891ff9c49" />
+<img width="1356" height="821" alt="image" src="https://github.com/user-attachments/assets/f31000f1-58d9-40de-a6f3-cd49619c643d" />
+
 Agents evaluating their environment and action results to understand progress and handle errors.
 
 Core concept: after each action, agents need feedback mechanisms beyond basic tool returns. Computer use example: Claude takes a screenshot after every action to see how the environment changed. Code editing example: agents must read current file contents before modifying.
+
+<img width="1412" height="752" alt="image" src="https://github.com/user-attachments/assets/e37f0764-ab64-4c3f-98a2-c4eda7e2e61f" />
 
 Social media video agent examples: use Whisper CPP via bash to generate timestamped captions and verify dialogue placement; use FFmpeg to extract video screenshots at intervals and inspect visual results; validate video creation meets expectations before posting.
 
