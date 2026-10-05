@@ -988,8 +988,8 @@ Example: material selection — instead of one large prompt evaluating all mater
 <img width="1474" height="782" alt="image" src="https://github.com/user-attachments/assets/acdf2c34-6388-42c2-a1ef-054287e9398d" />
 <img width="1475" height="718" alt="image" src="https://github.com/user-attachments/assets/723258db-f30d-4b26-a6c9-6ccc664d2f62" />
 
-Bad Design : <img width="1435" height="759" alt="image" src="https://github.com/user-attachments/assets/f9da3aa7-46b1-45a9-b562-d0da4cf0c358" />
-
+1st request: <img width="1435" height="759" alt="image" src="https://github.com/user-attachments/assets/f9da3aa7-46b1-45a9-b562-d0da4cf0c358" />
+Follow up prompt: <img width="1389" height="782" alt="image" src="https://github.com/user-attachments/assets/dcedc097-aea0-4aa5-ac03-1e4f458c87c6" />
 
 Breaking large tasks into a series of distinct sequential steps rather than a single complex prompt.
 
@@ -999,6 +999,8 @@ Solution: Step 1 — send initial prompt, accept imperfect output. Step 2 — fo
 
 ### Routing Workflows
 ---
+<img width="1521" height="730" alt="image" src="https://github.com/user-attachments/assets/b088f32a-341e-4c7a-b224-a2b1d5dda08c" />
+
 Categorizes user input to determine the appropriate processing pipeline.
 
 Mechanism: initial request to Claude categorizes input into predefined genres/categories → based on response, system routes to specialized pipeline with customized prompts/tools.
@@ -1007,6 +1009,8 @@ Example: social media video script generation where programming topics get educa
 
 ### Agents and Tools
 ---
+<img width="1525" height="733" alt="image" src="https://github.com/user-attachments/assets/ff813933-5e07-446a-8f00-c5da7a9a2bcd" />
+
 Agents create plans using provided tools when exact steps are unknown.
 
 Tool abstraction principle: provide generic/abstract tools rather than hyper-specialized ones. Example: Claude Code uses `bash`, `web_fetch`, `file_write` (abstract) rather than `refactor_tool`, `install_dependencies` (specialized).
